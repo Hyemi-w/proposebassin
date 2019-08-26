@@ -1,3 +1,26 @@
+@import "vars";
+
 body {
-    background-color: red;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    .slide1 {
+        height: 80vh;
+        object-fit: cover;
+        background: url(../images/socooc2.jpg) 0 no-repeat fixed;
+
+        .slide_inside {
+            text-align: center;
+        }
+    }
+}
+
+.umpah {
+    height: 500px;
 }
